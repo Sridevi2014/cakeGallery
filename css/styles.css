@@ -1,0 +1,91 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+h2 {
+    color: #3046C5;
+}
+header h2 {
+    color: #CEC8FF;
+}
+.site-footer {
+    background-image: linear-gradient(#e040fb, white);
+    padding: 20px 0;
+}
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right,#c62828, #fff176, #558b2f);
+    color: white;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.navbar-dark {
+    background-color:#ff8a80;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #f48fb1;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+
+#carouselButton1 {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+
+#carouselButton2 {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+    
+
+    .section {
+        min-height: 1000px;
+        overflow: hidden;
+        position: relative;
+        padding: 90px 10px 0px;
+        background-size: cover;
+    }
+.section article {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.section:nth-child(even) {
+    background-color: #ccc;
+}
+
+#home {
+    background: url(http://lorempixel.com/1200/800/nightlife/8/cc) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#home > div,
+#about > div {
+    background-color: rgba(255, 255, 0, 0.5);
+    border-radius: 10px;
+}
+#contact > div {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+
+
