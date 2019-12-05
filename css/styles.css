@@ -47,14 +47,10 @@ header h2 {
     right: 0;
     bottom: 0; }
 
-#carouselButton2 {
-    position: absolute;
-    right: 0;
-    bottom: 0; }
-    
+
 
     .section {
-        min-height: 1000px;
+        min-height: 800px;
         overflow: hidden;
         position: relative;
         padding: 90px 10px 0px;
@@ -74,8 +70,8 @@ header h2 {
     background-size: cover;
 }
 
-#home > div,
-#about > div {
+#home > div
+ {
     background-color: rgba(255, 255, 0, 0.5);
     border-radius: 10px;
 }
@@ -84,7 +80,6 @@ header h2 {
     border-radius: 20px;
     padding: 20px;
 }
-
 
 
 
