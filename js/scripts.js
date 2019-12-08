@@ -11,8 +11,7 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
-});
-$(function() {
+
     $(".carousel").carousel( { interval: 2000 } );
     $("#carouselButton1").click(function(){
         if ($("#carouselButton1").children("i").hasClass("fa-pause")) {
