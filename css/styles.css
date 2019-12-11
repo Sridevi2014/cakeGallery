@@ -8,9 +8,7 @@ h1, h2, h3, h4 {
 h2 {
     color: #3046C5;
 }
-header h2 {
-    color: #CEC8FF;
-}
+
 .site-footer {
     background-image: linear-gradient(#e040fb, white,#ec407a);
     padding: 20px 0;
@@ -37,10 +35,7 @@ header h2 {
     border: solid #f48fb1;
 }
 
-#carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0; }
+
 
 #carouselButton1 {
     position: absolute;
@@ -84,5 +79,7 @@ header h2 {
 
 #header{
     padding: 10px;
+    color:black;
 }
+
 
